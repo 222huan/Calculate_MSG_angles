@@ -12,4 +12,4 @@ We obtained some angle information by contacting with the helpdesk of LSASAF. Ta
 
 For zenith angles, the error is described with absolute error.  For azimuth angles, LSASAF stores azimuth angles within [-180, 180], while we calculate them within [0, 360], thus we calculated the cosine value of the difference between calculated and provided azimuth angls.
 
-Because earth curvature, atmospheric refraction and other factors are not considered in our calculation, thus there are some difference but within the reasonable range.
+Because earth elevation, atmospheric refraction and other factors are not considered in our calculation, thus there are some difference but within the reasonable range.
