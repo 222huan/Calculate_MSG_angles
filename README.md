@@ -5,7 +5,7 @@ LSASAF doesn't provide  view zenith angle (VZA), view azimuth angle (VAA), sun z
 
 **Calculate_solar_angles.m** : calculate SZA and SAA for each MSG pixels
 
-We obtained some angle information by contacting with the helpdesk of LSASAF. Then we compared the provided angles and calculated angles of each pixel, and the boxplot of errors are listed as follows:
+We obtained some angle information by contacting with the helpdesk of LSASAF. Taking the angle information in 12:00 UTC 1/1/2021 as example, we calculated angles of each pixel, and compared them with the helpdesk provided angles. The boxplot of errors are listed as follows:
 
 For zenith angles, the error is described with absolute error.  For azimuth angles, LSASAF stores azimuth angles within [-180, 180], while we calculate them within [0, 360], thus we calculated the cosine value of the difference between calculated and provided azimuth angls.
 
